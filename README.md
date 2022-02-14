@@ -1,0 +1,1 @@
+This code reperents the demonstration of Aiven Kafka streaming platform where a producer written in java publishes json messages to kafka topic and consumer which consumes json messages from kafka topic which is hosted on Aiven kafka manager platform.
