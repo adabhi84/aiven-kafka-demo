@@ -32,9 +32,11 @@ public class Consumer {
         while (true) {
             ConsumerRecords<String, String> records = consumer.poll(1000);
             for (ConsumerRecord<String, String> record : records) {
+                if(record.key() != null){
+
                 System.out.printf("offset = %d, key = %s, value = %s",
                         record.offset(), record.key(), record.value());
-            }
+            }}
         }
 
 

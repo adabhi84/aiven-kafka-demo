@@ -38,7 +38,7 @@ public class Producer {
         KafkaProducer<String, String> producer = new KafkaProducer<>(props);
         String jsonString = new Gson().toJson(agreement);
         System.out.println(jsonString);
-        Future<RecordMetadata> tt =  producer.send(new ProducerRecord<>("anant-demo-topic", jsonString));
+        Future<RecordMetadata> tt = producer.send(new ProducerRecord("anant-demo-topic", agreement.getAgreementId().toString(), jsonString));
         System.out.println(tt);
         producer.close();
         System.out.println("Completed");
