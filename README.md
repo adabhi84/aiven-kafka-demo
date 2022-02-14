@@ -10,3 +10,7 @@ The sample program in this project demonstrate how to connect to your Aiven for 
 		2.4 zstd-jni-1.5.2-1
 		2.5 kafka-clients-3.0.0
 
+
+**Requirements:**
+
+Keystore (client.keystore.p12) and truststore (client.truststore.jks) are properly created. For details, see our article on configuring Java SSL to access Kafka.
