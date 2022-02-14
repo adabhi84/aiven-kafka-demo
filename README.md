@@ -14,3 +14,8 @@ The sample program in this project demonstrate how to connect to your Aiven for 
 **Requirements:**
 
 Keystore (client.keystore.p12) and truststore (client.truststore.jks) are properly created. For details, see our article on https://help.aiven.io/en/articles/5241419-configuring-java-ssl-to-access-kafka.
+
+**Implementation:**
+
+1. Producer.java: This class configures the secured kafka connection,kafka client serde and make a connection to kafka topic and publishes the agreement json messages to topic.
+2. Consumer.java: This class configures the secured kafka connection,kafka client serde and make a connection to kafka topic and consumes the agreement json messages from topic which is being dumped on the console.
