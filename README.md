@@ -2,5 +2,3 @@ This code reperents the demonstration of Aiven Kafka streaming platform where a 
 Here is some more details about the implementation:-
 JDK:- Java 11
 External JARS which is being used in the impl:
-JAR	Version
-Gson	2.9.0
