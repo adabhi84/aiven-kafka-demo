@@ -17,5 +17,6 @@ Keystore (client.keystore.p12) and truststore (client.truststore.jks) are proper
 
 **Implementation:**
 
-1. Producer.java: This class configures the secured kafka connection,kafka client serde and make a connection to kafka topic and publishes the agreement json messages to topic.
-2. Consumer.java: This class configures the secured kafka connection,kafka client serde and make a connection to kafka topic and consumes the agreement json messages from topic which is being dumped on the console.
+1. **Producer.java:** This class configures the secured kafka connection,kafka client serde and make a connection to kafka topic and publishes the agreement json messages to topic.
+2. **Consumer.java:** This class configures the secured kafka connection,kafka client serde and make a connection to kafka topic and consumes the agreement json messages from topic which is being dumped on the console.
+3. **Agreement.java:** Business Domain Model
