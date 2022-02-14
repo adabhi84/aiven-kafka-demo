@@ -6,5 +6,9 @@ JDK:- Java 11
 
 External JARS which is being used in the impl:
 
-![image](https://user-images.githubusercontent.com/99628441/153796655-1c218f90-0785-4d4f-910d-6b3fa951a101.png)
+1. gson-2.9.0
+2. lz4-java-1.8.0
+3. slf4j-api-1.7.36
+4. zstd-jni-1.5.2-1
+5. kafka-clients-3.0.0
 
