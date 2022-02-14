@@ -13,4 +13,4 @@ The sample program in this project demonstrate how to connect to your Aiven for 
 
 **Requirements:**
 
-Keystore (client.keystore.p12) and truststore (client.truststore.jks) are properly created. For details, see our article on configuring Java SSL to access Kafka.
+Keystore (client.keystore.p12) and truststore (client.truststore.jks) are properly created. For details, see our article on https://help.aiven.io/en/articles/5241419-configuring-java-ssl-to-access-kafka.
